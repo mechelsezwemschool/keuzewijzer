@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Zwemschool - keuzewijzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Keuzewijzer zwemschool</h1>
+    <div class="wizard">
+      <ul class="keuzewijzer">
+      <li class="keuzewijzer__slide" data-slide="1">
+        <div class="keuzewijzer__inner">
+          <h2>Ik ben <strong>jonger dan 2 jaar</strong> en kijk er naar uit om samen met mijn mama en papa kennis te maken met het zwembad en het water!</h2>
+          <div class="buttons">
+            <a href="https://www.rscm.be/zwemschool/baby-zwemmen" target="_parent" class="button button--yes">Ja</a>
+            <a href="#" data-goto="2" class="button button--no">Nee</a>
+          </div>
+        </div>
+      </li>
+      <li class="keuzewijzer__slide" data-slide="2">
+        <div class="keuzewijzer__inner">
+          <h2>Ik ben <strong>minstens 4 jaar</strong> en wil graag dmv leuke spelletjes een echte waterrat worden!</h2>
+          <div class="buttons">
+            <a href="https://www.rscm.be/zwemschool/watergewenning" target="_parent" class="button button--yes">Ja</a>
+            <a href="#" data-goto="3" class="button button--no">Nee</a>
+          </div>
+        </div>
+      </li>
+      <li class="keuzewijzer__slide" data-slide="3">
+        <div class="keuzewijzer__inner">
+          <h2>Ik ben <strong>minstens 5 jaar</strong> en heb helemaal geen bang meer in het zwembad! Ik spring vol vertrouwen in het zwembad en durf al met mijn hoofd onder water te gaan!</h2>
+          <div class="buttons">
+            <a href="#" data-goto="4" target="_parent" class="button button--yes">Ja</a>
+            <a href="https://www.rscm.be/zwemschool/watergewenning" class="button button--no">Nee</a>
+          </div>
+        </div>
+      </li>
+      <li class="keuzewijzer__slide" data-slide="4">
+        <div class="keuzewijzer__inner">
+          <h2>Ook al heb ik geen bang meer van het zwembad, zwemmen kan ik nog niet!</h2>
+          <div class="buttons">
+            <a href="https://www.rscm.be/zwemschool/zwemschool-5-tot-12-jaar" target="_parent" class="button button--yes">Ja</a>
+            <a href="#" data-goto="5" class="button button--no">Nee</a>
+          </div>
+        </div>
+      </li>
+      <li class="keuzewijzer__slide" data-slide="5">
+        <div class="keuzewijzer__inner">
+          <h2>Ik ben <strong>tussen 5 en 10 jaar</strong> oud en op school of via mijn papa, mama of via privé-les heb ik al wat leren zwemmen!</h2>
+          <div class="buttons">
+            <a href="#" data-goto="b" class="button button--yes">Ja</a>
+            <a href="#" data-goto="6" class="button button--no">Nee</a>
+          </div>
+        </div>
+      </li>
+      <li class="keuzewijzer__slide" data-slide="6">
+        <div class="keuzewijzer__inner">
+          <h2>Ik ben <strong>tussen 10 en 14 jaar</strong> en crawl, rugcrawl en schoolslag hebben geen geheimen meer voor mij!</h2>
+          <div class="buttons">
+            <a href="#" data-goto="c" class="button button--yes">Ja</a>
+            <a href="#" data-goto="7" class="button button--no">Nee</a>
+          </div>
+        </div>
+      </li>
+      <li class="keuzewijzer__slide" data-slide="7">
+        <div class="keuzewijzer__inner">
+          <h2>Ik ben <strong>minstens 18 jaar</strong> en ik heb spijtig genoeg nooit kunnen leren zwemmen!</h2>
+          <div class="buttons">
+            <a href="https://www.rscm.be/zwemschool/volwassenzwemmen" target="_parent" class="button button--yes">Ja</a>
+            <a href="#" data-goto="8" class="button button--no">Nee</a>
+          </div>
+        </div>
+      </li>
+      <li class="keuzewijzer__slide" data-slide="8">
+        <div class="keuzewijzer__inner">
+          <h2>Ik ben <strong>minstens 18 jaar</strong> en ik kan wel zwemmen maar wil graag mijn stijl verbeteren!</h2>
+          <div class="buttons">
+            <a href="https://www.rscm.be/zwemschool/start-to-swim-18" target="_parent" class="button button--yes">Ja</a>
+            <a href="#" data-goto="a" class="button button--no">Nee</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+    </div>
+    <div class="message" data-message="a">
+      <div class="message__inner">
+        <p>Stuur een mailtje met uw vraag naar <a href="mailto:zwemschool@rscm.be">zwemschool@rscm.be</a></p>
+      </div>
+    </div>
+    <div class="message" data-message="b">
+      <div class="message__inner">
+        <p>Neem contact op via <a href="mailto:zwemschool@rscm.be">zwemschool@rscm.be</a> zodat we u kunnen uitnodigen voor een testje om zo de juiste groep kunnen bepalen.</p>
+      </div>
+    </div>
+    <div class="message" data-message="c">
+      <div class="message__inner">
+        <p>Voor meer informatie en een test, neem contact op met <a href="mailto:sportivos@rscm.be">sportivos@rscm.be</a>.</p>
+      </div>
+    </div>
+  </div>
+<script src="//code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src="init-min.js"></script>
+</body>
+</html>
