@@ -21,15 +21,21 @@ body {
   max-width: 700px;
   margin: 0 auto;
   overflow: hidden;
+  padding-top: 10px;
 }
 h1 {
   text-align: center;
   margin-bottom: 20px;
   font-size: 38px;
+  line-height: 1.1;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 2px;
+  color: $green;
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
 }
 h2 {
   font-size: 16px;
